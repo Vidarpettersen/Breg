@@ -1,4 +1,6 @@
 # Breg
+Add under "Keywords" 
+
 ```
    "repositories":{
         "breg":{
@@ -9,4 +11,10 @@
             }
         }
     },
+```
+*Note: use URL for the reposetory!!  
+  
+Add line to require
+```
+"smbpartner/breg": "@dev"
 ```
