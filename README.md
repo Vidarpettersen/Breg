@@ -1,2 +1,12 @@
 # Breg
- Get json data from Breg using orgnr
+```
+   "repositories":{
+        "breg":{
+            "type": "path",
+            "url": "packages/smbpartner/breg",
+            "options": {
+                "symlink": true
+            }
+        }
+    },
+```
