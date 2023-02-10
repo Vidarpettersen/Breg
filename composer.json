@@ -1,0 +1,25 @@
+{
+    "name": "smbpartner/breg",
+    "description": "Capture data from breg using orgnr or company name",
+    "autoload": {
+        "psr-4": {
+            "Smbpartner\\Breg\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vidarpettersen",
+            "email": "vidar.pettersen@smbpartner.no"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.5"
+    },
+    "extra": {
+        "laravel":{
+            "providers":[
+                "Smbpartner\\Breg\\BregServiceProvider"
+            ]
+        }
+    }
+}
