@@ -21,6 +21,6 @@
                 "Smbpartner\\Breg\\BregServiceProvider"
             ]
         }
-    },
-    "minimum-stability": "1.0.0"
+    }
+
 }
