@@ -11,7 +11,14 @@ Add repository under "Keywords" in the root composer.json.
      }
  ],
 ```
-### Or host it in a project  
+After adding this you can run:
+```
+composer require smbpartner/breg
+```
+This will not add the repo to the require list in composer.json
+
+
+### Or you can host it in a project  
 Use URL for the repository, here we are using the folder LaravelApp/packages/smbpartner/breg 
 ```
    "repositories":{
@@ -25,8 +32,7 @@ Use URL for the repository, here we are using the folder LaravelApp/packages/smb
     },
 ```
 
-  
-Add line to require
+#### Add line to require
 ```
 "smbpartner/breg": "dev-main"
 ```
