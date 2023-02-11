@@ -18,7 +18,7 @@ class Breg
         }
         catch(Exception $e)
         {
-            // Handle the exeption
+            return response()->json("false");
         }
     }
 
@@ -34,7 +34,7 @@ class Breg
         }
         catch(Exception $e)
         {
-            // Handle the exeption
+            return response()->json("false");
         }
     }
 }

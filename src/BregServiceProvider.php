@@ -8,7 +8,7 @@ class BregServiceProvider extends ServiceProvider
 {
     public function boot()
     {
-        #dd('It works');
+        
     }
 
     public function register()

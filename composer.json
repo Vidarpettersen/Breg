@@ -13,7 +13,7 @@
         }
     ],
     "require": {
-        "php": ">=7.0.0"
+        
     },
     "extra": {
         "laravel":{
@@ -21,6 +21,7 @@
                 "Smbpartner\\Breg\\BregServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability": "dev"
 
 }
