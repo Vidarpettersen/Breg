@@ -11,12 +11,12 @@ use Smbpartner\Breg;
 
 #### Exapmle 1
 ```
-$result = Breg::enheter('123 456 789');
+$result = Breg::enheter('998 043 301');
 dd($result)
 ```
 #### Exapmle 2
 ```
-$result = Breg::roller('123456789');
+$result = Breg::roller('998043301');
 dd($result)
 ```
 
