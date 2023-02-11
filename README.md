@@ -11,7 +11,7 @@ Add repository under "Keywords" in the root composer.json.
      }
  ],
 ```
-After adding this you can run:
+#### Get package by running
 ```
 composer require smbpartner/breg
 ```
