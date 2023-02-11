@@ -1,5 +1,7 @@
 # Breg
-
+Simple package to access the Brreg API to get company information.
+  
+  
 ## How to use
 Add it at the top
 ```
@@ -30,15 +32,9 @@ dd($result)
      }
  ],
 ```
-#### Get package by running
-```
-composer require smbpartner/breg
-```
-This will not add the repo to the require list in composer.json
-
-
 #### Or you can host it in a project  
 Use URL for the repository, here we are using the folder LaravelApp/packages/smbpartner/breg 
+Download the zip from release page.  
 ```
    "repositories":{
         "breg":{
@@ -51,7 +47,15 @@ Use URL for the repository, here we are using the folder LaravelApp/packages/smb
     },
 ```
 
-#### Add line to require
+#### Get package by running
+```
+composer require smbpartner/breg
+```
+This will not add the repo to the require list in composer.json, and you will get the main branch.
+
+#### Want other versons?
+You can spesify the branch you want, this prodject only contains the "Main" branch.
 ```
 "smbpartner/breg": "dev-main"
 ```
+
