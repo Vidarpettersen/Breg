@@ -3,13 +3,15 @@ Simple package to access the Brreg API to get company information.
   
   
 ## How to use
-Add it at the top
+Class expects STRING, dont care about space's.  
+
 ```
 use Smbpartner\Breg;
 ```
-#### Exapmle
+
+#### Exapmle 1
 ```
-$result = Breg::enheter('123456789');
+$result = Breg::enheter('123 456 789');
 dd($result)
 ```
 #### Exapmle 2
