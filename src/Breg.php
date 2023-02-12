@@ -18,7 +18,7 @@ class Breg
         }
         catch(\Exception $e)
         {
-            return response("Not found", 404);
+            return response($e, 404);
         }
     }
 
@@ -34,7 +34,7 @@ class Breg
         }
         catch(\Exception $e)
         {
-            return response("Not found", 404);
+            return response($e, 404);
         }
     }
 }
