@@ -1,10 +1,12 @@
 # Breg
-Simple package to access the Brreg API to get company information.
+Simple package to access the Brreg API to get company information. This package is not hosted on packagist.org.
   
   
 ## How to use
 Class expects STRING, dont care about space's.  
-
+Returns "false" if it cant find a company.
+  
+#### Include it at the top of the file
 ```
 use Smbpartner\Breg;
 ```
@@ -16,14 +18,14 @@ dd($result);
 ```
 #### Exapmle 2
 ```
-$result = Breg::roller('998043301');
+$result = Breg::roller('SMB Partner AS');
 dd($result);
 ```
 
 
 ## Install
-1. Add repository under "Keywords" in the root composer.json. 
-2. Use composer to get the package, code bellow.
+1. Add repository bellow "Keywords" in the root composer.json. 
+2. Use composer to get the package (code bellow).
   
 #### Get it from this git
 ```
@@ -34,9 +36,18 @@ dd($result);
      }
  ],
 ```
+You need a token for this to work!
+
+#### Get package by running
+```
+composer require smbpartner/breg
+```
+This will not add the repo to the require list in composer.json, and you will get the main branch.
+
+  
 #### Or you can host it in a project  
-Use URL for the repository, here we are using the folder LaravelApp/packages/smbpartner/breg 
-Download the zip from release page.  
+Use the repository path as the URL, here we are using the folder RootFolder/packages/smbpartner/breg 
+Download the zip from release page and extract it into the smbpartner folder.  
 ```
    "repositories":{
         "breg":{
@@ -49,14 +60,8 @@ Download the zip from release page.
     },
 ```
 
-#### Get package by running
-```
-composer require smbpartner/breg
-```
-This will not add the repo to the require list in composer.json, and you will get the main branch.
-
-#### Want other versons?
-You can spesify the branch you want, this prodject only contains the "Main" branch.
+#### Add line to the require-dev in composer.json
+You can spesify the branch you want, but in this case only main exists.
 ```
 "smbpartner/breg": "dev-main"
 ```
