@@ -37,10 +37,17 @@ dd($result);
  ],
 ```
 You need a token for this to work!
+
+#### Get package by running
+```
+composer require smbpartner/breg
+```
+This will not add the repo to the require list in composer.json, and you will get the main branch.
+
   
 #### Or you can host it in a project  
-Use URL for the repository, here we are using the folder LaravelApp/packages/smbpartner/breg 
-Download the zip from release page.  
+Use the repository path as the URL, here we are using the folder RootFolder/packages/smbpartner/breg 
+Download the zip from release page and extract it into the smbpartner folder.  
 ```
    "repositories":{
         "breg":{
@@ -53,15 +60,8 @@ Download the zip from release page.
     },
 ```
 
-#### Get package by running
-```
-composer require smbpartner/breg
-```
-This will not add the repo to the require list in composer.json, and you will get the main branch.
-
-#### Want other versons?
-You can spesify the branch you want.  
-This prodject only contains the "Main" branch.  
+#### Add line to the require-dev in composer.json
+You can spesify the branch you want, but in this case only main exists.
 ```
 "smbpartner/breg": "dev-main"
 ```
