@@ -5,7 +5,8 @@ Simple package to access the Brreg API to get company information.
 ## How to use
 Class expects STRING, dont care about space's.  
 Returns "false" if it cant find a company.
-
+  
+#### Include it at the top of the file
 ```
 use Smbpartner\Breg;
 ```
