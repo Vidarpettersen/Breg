@@ -16,9 +16,9 @@ class Breg
             $res = Http::get($url);
             return json_decode($res);
         }
-        catch(Exception $e)
+        catch(\Exception $e)
         {
-            return response()->json("false");
+            return response("Not found", 404);
         }
     }
 
@@ -32,9 +32,9 @@ class Breg
             $res = Http::get($url);
             return json_decode($res);
         }
-        catch(Exception $e)
+        catch(\Exception $e)
         {
-            return response()->json("false");
+            return response("Not found", 404);
         }
     }
 }
