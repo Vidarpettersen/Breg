@@ -1,5 +1,5 @@
 # Breg
-Simple package to access the Brreg API to get company information.
+Simple package to access the Brreg API to get company information. This package is not hosted on packagist.org.
   
   
 ## How to use
