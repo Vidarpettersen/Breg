@@ -17,7 +17,7 @@ dd($result);
 ```
 #### Exapmle 2
 ```
-$result = Breg::roller('998043301');
+$result = Breg::roller('SMB Partner AS');
 dd($result);
 ```
 
