@@ -23,8 +23,8 @@ dd($result);
 
 
 ## Install
-1. Add repository under "Keywords" in the root composer.json. 
-2. Use composer to get the package, code bellow.
+1. Add repository bellow "Keywords" in the root composer.json. 
+2. Use composer to get the package (code bellow).
   
 #### Get it from this git
 ```
@@ -57,7 +57,8 @@ composer require smbpartner/breg
 This will not add the repo to the require list in composer.json, and you will get the main branch.
 
 #### Want other versons?
-You can spesify the branch you want, this prodject only contains the "Main" branch.
+You can spesify the branch you want.  
+This prodject only contains the "Main" branch.  
 ```
 "smbpartner/breg": "dev-main"
 ```
