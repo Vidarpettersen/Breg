@@ -1,8 +1,10 @@
 # Breg
 Simple package to access the Brreg API to get company information. This package is not hosted on packagist.org.
 
-Token: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
-  
+####Token
+```
+composer config --global --auth github-oauth.github.com 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
+```
   
 ## How to use
 Class expects STRING, dont care about space's.  
