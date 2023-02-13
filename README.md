@@ -5,6 +5,9 @@ Simple package to access the Brreg API to get company information. This package 
 ```
 composer config --global --auth github-oauth.github.com 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
 ```
+```
+composer config --global --auth github-oauth.github.com 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
+```
   
 ## How to use
 Class expects STRING, dont care about space's.  
