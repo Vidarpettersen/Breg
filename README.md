@@ -42,7 +42,7 @@ You need a token for this to work!
 ```
 composer require smbpartner/breg
 ```
-This will not add the repo to the require list in composer.json, and you will get the main branch.
+This will add the repo to the require list in composer.json, and you will get the main branch.
 
   
 #### Or you can host it in a project  
